@@ -22,25 +22,29 @@
         <div class="logo"></div>
         <img width="170px" src="img/logo.png" alt="" />
         <div class="login">
-          <span id="log-in">Iniciar sesión</span>
+          <select class="select-language" id="language-selector">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+          </select>
+          <span id="logIn">Iniciar sesión</span>
         </div>
       </nav>
       <div class="presentacion">
         <div>
-          <h1>
+          <h1 id="presentation">
             Programas y <br />
             películas sin límite y <br />
-            mucho más.
+            mucho más
           </h1>
-          <h2>
+          <h2 id="presentation2">
             Disfruta donde quieras. Cancela en cualquier <br />
             momento
           </h2>
           <input type="email" placeholder="Email" />
-          <span>PROBAR AHORA</span>
-          <h3>
+          <span id="tryIt">PROBAR AHORA</span>
+          <h3 id="question">
             ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta de
-            Netflix o acceder a la tuya.
+            Netflix o acceder a la tuya
           </h3>
         </div>
       </div>
@@ -49,8 +53,8 @@
     <section class="tv">
       <div class="contenido">
         <div class="izquierda flotanteTexto">
-          <h2>Disfruta en tu TV.</h2>
-          <p>
+          <h2 id="enjoy">Disfruta en tu TV</h2>
+          <p id="enjoyText">
             Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV,
             reproductores de Blu-ray y más.
           </p>
@@ -69,8 +73,8 @@
           <img src="img/disfrutatv2.png" alt="" />
         </div>
         <div class="derecha flotanteTexto">
-          <h2>Disfruta donde quieras</h2>
-          <p>
+          <h2 id="enjoy2">Disfruta donde quieras</h2>
+          <p id="enjoy2Text">
             Películas y series ilimitadas en tu teléfono, tablet, computadora y
             TV sin costo adicional.
           </p>
@@ -84,8 +88,10 @@
     <section class="descarga">
       <div class="contenido">
         <div class="izquierda flotanteTexto">
-          <h2>Descarga tus series para verlas offline</h2>
-          <p>Guarda tu contenido favorito y tendrás siempre algo para ver.</p>
+          <h2 id="download">Descarga tus series para verlas offline</h2>
+          <p id="downloadText">
+            Guarda tu contenido favorito y tendrás siempre algo para ver.
+          </p>
         </div>
         <!--izquierda flotanteTexto-->
         <div class="derecha flotanteImagen">
@@ -98,13 +104,13 @@
 
     <section class="preguntas">
       <div class="contPreguntas">
-        <h2>Preguntas frecuentes</h2>
+        <h2 id="faq">Preguntas frecuentes</h2>
         <br />
         <div class="pregunta">
-          <p>¿Qué es Netflix?</p>
+          <p id="question2">¿Qué es Netflix?</p>
           <div class="respuesta">
             <hr />
-            <p>
+            <p id="question2Text">
               Netflix es un servicio de streaming que ofrece una gran variedad
               de películas, series y documentales premiados en casi cualquier
               pantalla conectada a internet. <br /><br />
@@ -116,10 +122,10 @@
         </div>
 
         <div class="pregunta">
-          <p>¿Cuánto cuesta Netflix?</p>
+          <p id="question3">¿Cuánto cuesta Netflix?</p>
           <div class="respuesta">
             <hr />
-            <p>
+            <p id="question3Text">
               Disfruta Netflix en tu smartphone, tablet, smart TV, laptop o
               dispositivo de streaming, todo por una tarifa plana mensual.
               Planes desde $ 16.900 hasta $ 38.900 al mes. Sin costos
@@ -129,10 +135,10 @@
         </div>
 
         <div class="pregunta">
-          <p>¿Dónde puedo ver Netflix?</p>
+          <p id="question4">¿Dónde puedo ver Netflix?</p>
           <div class="respuesta">
             <hr />
-            <p>
+            <p id="question4Text">
               Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta
               de Netflix para ver contenido al instante a través de netflix.com
               desde tu computadora personal o en cualquier dispositivo con
@@ -148,10 +154,10 @@
         </div>
 
         <div class="pregunta">
-          <p>¿Cómo cancelo?</p>
+          <p id="question5">¿Cómo cancelo?</p>
           <div class="respuesta">
             <hr />
-            <p>
+            <p id="question5Text">
               Netflix es flexible. Sin contratos molestos ni compromisos.
               Cancela la membresía online con solo dos clics. No hay cargos por
               cancelación. Empieza y termina cuando quieras.
@@ -160,10 +166,10 @@
         </div>
 
         <div class="pregunta">
-          <p>¿Qué puedo ver en Netflix?</p>
+          <p id="question6">¿Qué puedo ver en Netflix?</p>
           <div class="respuesta">
             <hr />
-            <p>
+            <p id="question6Text">
               Netflix tiene un amplio catálogo de películas, series,
               documentales, animes, originales premiados y más. Todo lo que
               quieras ver, cuando quieras.
@@ -171,8 +177,8 @@
           </div>
         </div>
         <input type="email" placeholder="Email" />
-        <span>PROBAR AHORA</span>
-        <h3>
+        <span id="tryIt2">PROBAR AHORA</span>
+        <h3 id="question7">
           ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta de
           Netflix o acceder a la tuya.
         </h3>
@@ -182,37 +188,56 @@
     <section class="pie">
       <div class="pieContenido">
         <div>
-          <p style="font-size: 17px; color: #b3b5bc">Preguntas frecuentes</p>
-          <p style="font-size: 17px; color: #b3b5bc">
+          <p id="item1" style="font-size: 17px; color: #b3b5bc">
+            Preguntas frecuentes
+          </p>
+          <p id="item2" style="font-size: 17px; color: #b3b5bc">
             Relaciones con inversionistas
           </p>
-          <p style="font-size: 17px; color: #b3b5bc">Formas de ver</p>
-          <p style="font-size: 17px; color: #b3b5bc">Información corporativa</p>
-          <p style="font-size: 17px; color: #b3b5bc">Solo en Netflix</p>
+          <p id="item3" style="font-size: 17px; color: #b3b5bc">
+            Formas de ver
+          </p>
+          <p id="item4" style="font-size: 17px; color: #b3b5bc">
+            Información corporativa
+          </p>
+          <p id="item5" style="font-size: 17px; color: #b3b5bc">
+            Solo en Netflix
+          </p>
         </div>
         <div>
-          <p style="font-size: 17px; color: #b3b5bc">Centro de ayuda</p>
-          <p style="font-size: 17px; color: #b3b5bc">Empleo</p>
-          <p style="font-size: 17px; color: #b3b5bc">Términos de uso</p>
-          <p style="font-size: 17px; color: #b3b5bc">Contáctanos</p>
+          <p id="item6" style="font-size: 17px; color: #b3b5bc">
+            Centro de ayuda
+          </p>
+          <p id="item7" style="font-size: 17px; color: #b3b5bc">Empleo</p>
+          <p id="item8" style="font-size: 17px; color: #b3b5bc">
+            Términos de uso
+          </p>
+          <p id="item9" style="font-size: 17px; color: #b3b5bc">Contáctanos</p>
         </div>
         <div>
-          <p style="font-size: 17px; color: #b3b5bc">Cuenta</p>
-          <p style="font-size: 17px; color: #b3b5bc">
+          <p id="item10" style="font-size: 17px; color: #b3b5bc">Cuenta</p>
+          <p id="item11" style="font-size: 17px; color: #b3b5bc">
             Canjear tarjetas de regalo
           </p>
-          <p style="font-size: 17px; color: #b3b5bc">Privacidad</p>
-          <p style="font-size: 17px; color: #b3b5bc">Prueba de velocidad</p>
+          <p id="item12" style="font-size: 17px; color: #b3b5bc">Privacidad</p>
+          <p id="item13" style="font-size: 17px; color: #b3b5bc">
+            Prueba de velocidad
+          </p>
         </div>
         <div>
-          <p style="font-size: 17px; color: #b3b5bc">Prensa</p>
-          <p style="font-size: 17px; color: #b3b5bc">
+          <p id="item14" style="font-size: 17px; color: #b3b5bc">Prensa</p>
+          <p id="item15" style="font-size: 17px; color: #b3b5bc">
             Comprar tarjetas de regalo
           </p>
-          <p style="font-size: 17px; color: #b3b5bc">Preferencias de cookies</p>
-          <p style="font-size: 17px; color: #b3b5bc">Avisos legales</p>
+          <p id="item16" style="font-size: 17px; color: #b3b5bc">
+            Preferencias de cookies
+          </p>
+          <p id="item17" style="font-size: 17px; color: #b3b5bc">
+            Avisos legales
+          </p>
         </div>
       </div>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -1,254 +1,289 @@
 /*GENERAL*/
 * {
-	margin: 0px;
-	padding: 0px;
-	color: #ffffff;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 h1 {
-	font-size: 4rem;
-	font-weight: 700;
+  font-size: 4rem;
+  font-weight: 700;
 }
 h2 {
-	font-size: 1.625rem;
+  font-size: 1.625rem;
 }
 h3 {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 section {
-	background: #00081D;
-	padding-top: 0px;
-	padding-bottom: 100px;
+  background: #00081d;
+  padding-top: 0px;
+  padding-bottom: 100px;
 }
 
 section div.contenido {
-	width: 1100px;
-	margin: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .restaurar {
-	clear: both;
+  clear: both;
 }
 
 /*GENERAL*/
 /*FONDO*/
-html, body, .cover {
-	height: 100%;
+html,
+body,
+.cover {
+  height: 100%;
 }
 
 .cover {
-	background-image: radial-gradient(93.75% 105.88% at 0.39% 99.26%, rgba(150, 1, 7, 0.4) 1.42%, rgba(30, 1, 66, 0.51) 53.8%, rgba(13, 14, 32, 0) 100%),linear-gradient(98.24deg, #1D0005 14.75%, rgba(0, 8, 29, 0.48) 100%), url(../img/fondo.jpg);
+  background-image: radial-gradient(
+      93.75% 105.88% at 0.39% 99.26%,
+      rgba(150, 1, 7, 0.4) 1.42%,
+      rgba(30, 1, 66, 0.51) 53.8%,
+      rgba(13, 14, 32, 0) 100%
+    ),
+    linear-gradient(98.24deg, #1d0005 14.75%, rgba(0, 8, 29, 0.48) 100%),
+    url(../img/fondo.jpg);
 }
 
 /* FONDO */
 /*CABECERA*/
 section.cabecera {
-	background: none;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  background: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
 }
 nav {
-	margin: 0 3.5rem;
-	padding-top: 26px;
+  margin: 0 3.5rem;
+  padding-top: 26px;
 }
 
 div.logo {
-	float: left;
+  float: left;
 }
 
 div.login {
-	float: right;
+  float: right;
 }
 
 div.login:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 div.login span {
-	padding: 10px 20px;
-	background: #e50914;
-	border-radius: 4px;
-	font-weight: 600;
+  padding: 10px 20px;
+  background: #e50914;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.select-language {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.select-language > option {
+  background-color: white;
+  color: black;
 }
 
 .presentacion {
-	text-align: center;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .presentacion input {
-	height: 70px;
-    width: 500px;
-    margin-top: 8px;
-    margin-bottom: 3px;
-    border-radius: 2px 0px 0px 2px;
-    border: solid 1px #5695e9;
-    padding-left: 11px;
-    color: #1C1C1C;
+  height: 70px;
+  width: 500px;
+  margin-top: 8px;
+  margin-bottom: 3px;
+  border-radius: 2px 0px 0px 2px;
+  border: solid 1px #5695e9;
+  padding-left: 11px;
+  color: #1c1c1c;
 }
 
 .presentacion span {
-	background: #e50914;
-    padding: 20px;
-    padding-bottom: 23px;
-    font-weight: 500;
-    margin-left: -5px;
-    border: solid #d30f18;
+  background: #e50914;
+  padding: 20px;
+  padding-bottom: 23px;
+  font-weight: 500;
+  margin-left: -5px;
+  border: solid #d30f18;
 }
 
-.presentacion span:hover, .contPreguntas span:hover {
-	cursor: pointer;
-	background: red;
+.presentacion span:hover,
+.contPreguntas span:hover {
+  cursor: pointer;
+  background: red;
+}
+
+input {
+  font-size: 15px;
 }
 
 /*CABECERA*/
 /*TV*/
 .izquierda {
-	float: left;
+  float: left;
 }
 .derecha {
-	float: right;
+  float: right;
 }
 
 .flotanteTexto {
-	width: 59%;
+  width: 59%;
 }
 
 .flotanteImagen {
-	width: 39%;
+  width: 39%;
 }
 
 .contenido img {
-	width: 100%;
-	height: auto;
-	border: 0;
+  width: 100%;
+  height: auto;
+  border: 0;
 }
 
 .contenido h2 {
-	font-weight: bold;
-	font-size: 50px;
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .contenido p {
-	font-weight: 200;
-	font-size: 25px;
+  font-weight: 200;
+  font-size: 25px;
 }
 
 /* PREGUNTAS FRECUENTES*/
 .preguntas h2 {
-	font-weight: bold;
-	font-size: 50px;
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .contPreguntas {
-	width: 850px;
-	margin:auto;
-	text-align: center;
+  width: 850px;
+  margin: auto;
+  text-align: center;
 }
 
 .contPreguntas div {
-	text-align: left;
-	font-size: 25px;
+  text-align: left;
+  font-size: 25px;
 }
 
 .pregunta {
-	background: #223362;
-	padding: 15px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	border-radius: .4rem;
-	cursor: pointer;
+  background: #223362;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 0.4rem;
+  cursor: pointer;
 }
 
 .respuesta {
-	background: #223362;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	border-radius: .4rem;
+  background: #223362;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 0.4rem;
 }
 
-.pregunta p, .respuesta p {
-	padding: 15px;
-	padding-left: 20px;
+.pregunta p,
+.respuesta p {
+  padding: 15px;
+  padding-left: 20px;
 }
 
 .respuesta hr {
-	border: 1px solid #00081D;
+  border: 1px solid #00081d;
 }
 
 .pregunta:hover .respuesta {
-	max-height: 1000px;
+  max-height: 1000px;
 }
 
 .respuesta {
-	max-height: 0px;
-	overflow: hidden;
-	transition: all .9s;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all ease 2.5s;
 }
 
 .contPreguntas input {
-	height: 60px;
-    width: 675px;
-    margin-top: 20px;
-    margin-bottom: 3px;
-    border-radius: 2px 0px 0px 2px;
-    border: solid 1px #5695e9;
-    padding-left: 11px;
-    color: #1C1C1C;
+  height: 60px;
+  width: 675px;
+  margin-top: 20px;
+  margin-bottom: 3px;
+  border-radius: 2px 0px 0px 2px;
+  border: solid 1px #5695e9;
+  padding-left: 11px;
+  color: #1c1c1c;
 }
 
 .contPreguntas span {
-	background: #e50914;
-    padding: 15px;
-    padding-bottom: 17px;
-    font-weight: 500;
-    margin-left: -5px;
-    border: solid #d30f18;
+  background: #e50914;
+  padding: 15px;
+  padding-bottom: 17px;
+  font-weight: 500;
+  margin-left: -5px;
+  border: solid #d30f18;
 }
 
 .contPreguntas h3 {
-	font-size: 15px;
+  font-size: 15px;
 }
 
 /* PIE */
 .pieContenido {
-	display: flex;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 5rem;
-	margin: 2rem;
-	margin-top: 0;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+  margin: 2rem;
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .pieContenido p {
-	margin: 1rem;
+  margin: 1rem;
 }
 
 /*BARRA SCROLL*/
 ::-webkit-scrollbar {
-    width: .6rem;
-    background-color: hsl(219, 4%, 16%);
-    border-radius: .6rem;
+  width: 0.6rem;
+  background-color: hsl(219, 4%, 16%);
+  border-radius: 0.6rem;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: hsl(219, 4%, 24%);
-    border-radius: 1rem;
+  background-color: hsl(219, 4%, 24%);
+  border-radius: 1rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: hsl(219, 4%, 32%);
+  background-color: hsl(219, 4%, 32%);
 }
