@@ -1,0 +1,11 @@
+{
+  "es": {
+    "title": "Bienvenido a Netflix",
+    "description": "Mira películas y programas de TV en línea o transmítelos directamente a tu smart TV, consola de juegos, PC, Mac, móvil, tableta y más.",
+    "log-in": "Iniciar sesión"
+  },
+  "en": {
+    "title": "Welcome to Netflix",
+    "description": "Watch movies and TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more."
+  }
+}
